@@ -1,3 +1,15 @@
+# This is Project Guide for deep Understanding. You can use following notebook for more interactive learning. 
+> I used movie review data for sentimental analytics. You can download data from Repository.
+> This Project's Main focus is:
+1. Sentimental Analytic Understanding
+2. Text Feature Extraction
+3. Neural_Network Approach (detail Architecture)
+4. Noise Reducton Hypothesis testing
+5. Model Evaluations.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
 <!-- wp:separator {"className":"is-style-wide"} -->
 <hr class="wp-block-separator is-style-wide"/>
 <!-- /wp:separator -->
