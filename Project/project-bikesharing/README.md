@@ -1,4 +1,4 @@
-## Bike Sharing Prediction [with Neural Network]
+## Bike Sharing Prediction [Neural Network Approach]
 ---
 
 
@@ -130,8 +130,6 @@ iteration, learning_rate, hidden_nodes, output_nodes ---> training_loss, validat
 7000,0.7,20,1 ---->0.057, 0.141
 10,000,0.7,20,1 ------> 0.058, 0.131
 
+Thank you. 
 ---
----
-
-Thank you to take interest until this, because 99% do not count it important. 
-# Keep learning, Enjoy Empowering.
+#### Keep learning, Enjoy Empowering. -@dave117
