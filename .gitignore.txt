@@ -1,5 +1,5 @@
 *.temp
 *.doc
 .udacity-pa
-.data
-.cache
+data/
+cache/
