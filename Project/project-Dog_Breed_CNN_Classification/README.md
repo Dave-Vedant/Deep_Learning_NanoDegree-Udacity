@@ -1,5 +1,7 @@
 # Dog Breed Image Classification Algorithm for Application 
 
+![Sample](https://github.com/vedantdave77/project.Orca/blob/master/Project/project-Dog_Breed_CNN_Classification/images/dog-breed-classification.gif)
+---
 ### Objective :
 Main objective of this project is to develope proper algorithm procedure for dog breed image classification application. Algorithm must understand the difference between human and dogs, as most of images of dogs also have image of owner with it. For fun part Algorithm can identiy human as nearest dog breed type features. 
 
@@ -59,8 +61,16 @@ My first objective is to identifying best approach, means...
 
 - I saved train algorithm to drive with ".pt" extension for future purpose. I make my final funtion `run_app` with proper ml- flow. You can find supporting function in this notebook. 
 
+---
 ### Result.
-![Final Output]["/image/result"]
+![Face Detection](https://github.com/vedantdave77/project.Orca/blob/master/Project/project-Dog_Breed_CNN_Classification/images/face_detection.PNG)
+---
+![Algorithm Comparison](https://github.com/vedantdave77/project.Orca/blob/master/Project/project-Dog_Breed_CNN_Classification/images/comparison.PNG)
+---
+![Final Output](https://github.com/vedantdave77/project.Orca/blob/master/Project/project-Dog_Breed_CNN_Classification/images/result.PNG)
+---
 
 ### Future Scope (working on it) : 
 I want to deploy this model using flask, well I previously use AWS lambda for deploymnent for sentiment analysis. But, it cost me a lot. so, I want to deploy it using flask.But, still I am working on it now, so in near future you will see the web deployment of it. Thank you.
+
+## Keep Learning, Enjoy Empowering
