@@ -1,15 +1,16 @@
 ## Bike Sharing Prediction [Neural Network Approach]
 ---
-
-
-
-### Main features.
-- 2 layer Neural Network with foreward/backward pass
-- hyper parameter tuning (performance improvement)
-- Accuracy -> training : 98.3 % , validation : 93 % 
-
+![](https://github.com/vedantdave77/project.Orca/blob/master/Project/project-bikesharing/bike-Sharing.gif)
 
 ---
+### Local Setup:
+    (deep-learning) C:\Users\HP\deep-learning-v2-pytorch>jupyter notebook
+[I 23:45:14.373 NotebookApp] Serving notebooks from local directory: C:\Users\HP\deep-learning-v2-pytorch
+[I 23:45:14.373 NotebookApp] The Jupyter Notebook is running at:
+[I 23:45:14.374 NotebookApp] http://localhost:8888/?token=af2d5a41eb8a74d34c3cf82d0fec4b65bb78483e804d15fe
+[I 23:45:14.374 NotebookApp]  or http://127.0.0.1:8888/?token=af2d5a41eb8a74d34c3cf82d0fec4b65bb78483e804d15fe
+[I 23:45:14.374 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:45:14.476 NotebookApp]
 
 ### Environmnet (downloaded packages):
 environment location: C:\Users\HP\anaconda3\envs\deep-learning
@@ -36,10 +37,7 @@ The following NEW packages will be INSTALLED:
   python             pkgs/main/win-64::python-3.8.2-h5fd99cc_11
   setuptools         pkgs/main/win-64::setuptools-46.1.3-py38_0
   sqlite             pkgs/main/win-64::sqlite-3.31.1-he774522_0
-  vc                 pkgs/main/win-64::vc-14.1-h0510ff6_4
-  vs2015_runtime     pkgs/main/win-64::vs2015_runtime-14.16.27012-hf0eaf9b_1
-  wheel              pkgs/main/win-64::wheel-0.34.2-py38_0
-  wincertstore       pkgs/main/win-64::wincertstore-0.2-py38_0
+
   
   The following packages will be downloaded:
 
@@ -82,35 +80,31 @@ The following NEW packages will be INSTALLED:
     widgetsnbextension-3.5.1   |           py38_0         863 KB
     ------------------------------------------------------------
     
-    
-   ### Local Setup:
-    (deep-learning) C:\Users\HP\deep-learning-v2-pytorch>jupyter notebook
-[I 23:45:14.373 NotebookApp] Serving notebooks from local directory: C:\Users\HP\deep-learning-v2-pytorch
-[I 23:45:14.373 NotebookApp] The Jupyter Notebook is running at:
-[I 23:45:14.374 NotebookApp] http://localhost:8888/?token=af2d5a41eb8a74d34c3cf82d0fec4b65bb78483e804d15fe
-[I 23:45:14.374 NotebookApp]  or http://127.0.0.1:8888/?token=af2d5a41eb8a74d34c3cf82d0fec4b65bb78483e804d15fe
-[I 23:45:14.374 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
-[C 23:45:14.476 NotebookApp]
-
 ---
 
 ### Business Problem: 
+Predict Bike cycle requirements for Cycle Hop's daily bike rental ridership. Company is facing problem of daily cycle requirement uncertainity. Someday then have enough cycle but, some otherdays they face shortage of cycles. Company want to know the more specific daily requirement. So, basic objective is to predict bicycle need with consideration of all the affected factors. 
 
----
-
-### Project Data
+### Data sets: 
+I got real data form kaggle competiton. You can download data from following link. 
 #### [Data](https://github.com/vedantdave77/project.Orca/tree/master/Project/project-bikesharing/Bike-Sharing-Dataset)
+Data set have information regarding day of year, season, specific month and year requirement, day hours, holiday, weekday information, special factors suchas temperature, weather, humidity, windspeed, casual and registry counts of day.
 
----
-
-### Project Model explaination :
+### Project Files :
 Please visit interactive code : **[My_Network](https://github.com/vedantdave77/project.Orca/blob/master/Project/project-bikesharing/My_Neural_Network_Approach.py.py)**
 
 Model Implementation : **[Bike_Sharing_prediction_with_Neural_Network.ipynb](https://github.com/vedantdave77/project.Orca/blob/master/Project/project-bikesharing/Bike_Sharing_prediction_with_Neural_Network.ipynb)** 
 
----
+### Project Flow : 
+1. Import Dataset and Library - Transfer data to panda form
+2. Data Pre-Analysis - dummy variable generation, target scalling, data preparation - train, valid, test sets, 
+3. Build Specific Neural network - [Build shallow neural network with two layers - forward, backward pass with validation loop]
+4. Unit Test of Algorithm  - for reduce error 
+5. Network training - Tuning Hyper Parameters, drop out, validation check. 
+6. Model prediction  
 
-#### Project Results (Ateemptes)
+
+#### Project Results (Ateemptes to tune HP Tuning)
 Multi_try with 2000 iteration but not get good result.
 Please read like...
 
