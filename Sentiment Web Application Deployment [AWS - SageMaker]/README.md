@@ -1,5 +1,17 @@
 # Sentimment Analysis Deployment
 
+### Project Intuition and AIM: 
+
+### Project Flow 
+
+
+### Technoltoy 
+
+### Problem and Solution
+
+
+### 
+
 I used AWS services to deploy web application for sentiment analysis. 
 For that I used following tools.
 - Sagemaker -------------------------------[for Model building and Machine learning training/testing]
