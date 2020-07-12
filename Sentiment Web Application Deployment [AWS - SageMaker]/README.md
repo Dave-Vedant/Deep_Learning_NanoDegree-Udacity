@@ -7,6 +7,8 @@
 - Deployment : AWS Lambda 
 - API : AWS gateway API (Resetful API)
 
+![](https://github.com/vedantdave77/project.Orca/blob/master/Sentiment%20Web%20Application%20Deployment%20%5BAWS%20-%20SageMaker%5D/Diagram%20%5BS3-SageMaker-Lambda-API-WebAPP%5D.svg)
+
 ### Dependency 
 Please visit **[requirement.txt]()**
 
